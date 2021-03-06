@@ -23,11 +23,11 @@ It is usually called LKM (**L**inux **K**ernel **M**odule)
 
 ### Getting information
 
-| Command                                                       | Description                            |
-| ------------------------------------------------------------- | -------------------------------------- |
-| `lsmod`                                                       | Show all loaded kernel modules         |
-| `modinfo module_name`                                         | Show information about a kernel module |
-| `modprobe --show-depends module_name` (with admin privileges) | Current loaded kernel modules          |
+| Command                               | Description                            |
+| ------------------------------------- | -------------------------------------- |
+| `lsmod`                               | Show all loaded kernel modules         |
+| `modinfo module_name`                 | Show information about a kernel module |
+| `modprobe --show-depends module_name` | Show dependencies of a module          |
 
 ### Manually load a module
 
