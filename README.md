@@ -48,7 +48,7 @@ Or :
 
 ### Automatically load a module
 
-If we want to add or blacklist an module to the Kernel, we can specify a list of kernel modules to load in a conf file. Each module name is separated by a newline.  
+If we want to add or blacklist a module to the Kernel, we can specify a list of kernel modules to load in a conf file. Each module name is separated by a newline.  
 The conf file has to be in `/etc/module-load.d/name_of_file.conf`.
 Example :  
 
