@@ -14,6 +14,7 @@ We are going to see the main commands to manage kernel modules and develop a sim
   - [Our first Hello-Bye World module](#our-first-hello-bye-world-module)
     - [Explanation](#explanation)
   - [Sources](#sources)
+
 ## Kernel modules
 
 Kernel modules are separated compiled codes that can be integrated (loaded or unloaded) into the Linux kernel on the demand without the need to reboot the system. The main advantage is the capacity to add features to the Kernel without recompiling all the Kernel.
